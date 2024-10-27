@@ -20,4 +20,12 @@ Vagrant.configure("2") do |config|
       echo "<h1>Hola Mundo</h1>" | sudo tee /var/www/html/index.html
     SHELL
   end
+
+  Vagrant.configure("2") do |config|
+    config.vm.box = "nombre_de_tu_caja"
+  
+    # Reenvío de puertos: desde el puerto 8080 del anfitrión al puerto 80 de la VM
+    config.vm.network "forwarded_port", guest: 80, host: 8080
+  end
+  
   

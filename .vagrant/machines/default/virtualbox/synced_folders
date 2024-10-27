@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"C:/Users/mendo/OneDrive/Escritorio/mi_servidor_apache/paginas_web","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/mendo/OneDrive/Escritorio/mi_servidor_apache","disabled":false,"__vagrantfile":true}}}
